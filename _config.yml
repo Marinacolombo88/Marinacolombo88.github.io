@@ -1,0 +1,19 @@
+title:             Clean Blog
+email:             colombo.fono@gmail.com
+description:       A Blog Theme by Start Bootstrap
+author:            Marina Colombo
+baseurl:           "/"
+url:               "http://blackrockdigital.github.io"
+
+# Social Profiles
+twitter_username:  SBootstrap
+github_username:   BlackrockDigital
+facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          3
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
